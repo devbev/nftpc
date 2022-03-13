@@ -91,3 +91,15 @@ hr {
     color: hsl(215, 32%, 27%);
     width: 88%;
 }
+
+@media screen and (max-width: 350px) {
+    main > section {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    section > img {
+        width: 100%;
+        max-width: 235px;
+    }
+}
