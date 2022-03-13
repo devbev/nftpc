@@ -1,0 +1,93 @@
+/* body {
+    list-style: none;
+} */
+
+main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: hsl(217, 54%, 11%);
+   font-family: 'Outfit', sans-serif;
+}
+
+main > section {
+  
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+section > img {
+    
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 1.5rem;
+}
+
+section > h3, .eth > li:first-child,.jules span {
+    color: hsl(178, 100%, 50%);
+}
+
+section > h3, p {
+    padding: 0 1.5rem;
+}
+
+section > h3 {
+    margin-top: -0.5rem;
+}
+
+section > p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+section > p, .eth > li + li, .jules span:first-child {
+    color: hsl(215, 51%, 70%);
+}
+
+section > ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+}
+
+.eth > li + li {
+    flex-grow: 0.2;
+}
+
+.eth span {
+    padding-right: 8px;
+
+}
+
+.eth img {
+    margin-bottom: -3px;
+}
+
+.jules > li > img {
+    width: 100%;
+    max-width: 30px;
+    border: 1px solid hsl(178, 100%, 50%);
+    border-radius: 50%;
+}
+
+
+.jules li > span:first-child::after {
+    content:  ' ';
+}
+
+.jules > li + li {
+    flex-grow: 0.8;
+    line-height: 2;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+    width: 88%;
+}
